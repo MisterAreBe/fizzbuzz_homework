@@ -8,6 +8,12 @@ def fizzbuzz()
             break
         end
     end
+    if zed[2] % 3 == 0
+        v = "mined"
+        zed.insert(2, v)
+        zed.delete(3)
 
-    zed
+    end
+
+   zed
 end
