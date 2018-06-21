@@ -51,4 +51,10 @@ class TestFizzBuzz < Minitest::Test
         assert_equal("mined minds", fizzbuzz()[14])
     end
 
+    def test_zed_index_29_is_mined_minds
+        assert_equal("mined minds", fizzbuzz()[29])
+    end
+
+    
+
 end
