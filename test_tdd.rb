@@ -23,18 +23,20 @@ class TestFizzBuzz < Minitest::Test
         assert_equal(100, fizzbuzz()[99])
     end
 
-    def test_zed_index_2
+    def test_zed_index_2_is_mined
         assert_equal("mined", fizzbuzz()[2])
     end
 
-    def test_zed_index_5
+    def test_zed_index_5_is_mined
         assert_equal("mined", fizzbuzz()[5])
     end
 
-    def test_zed_index_98
+    def test_zed_index_98_is_mined
         assert_equal("mined", fizzbuzz()[98])
     end
 
-    
+    def test_zed_index_4_is_minds
+        assert_equal("minds", fizzbuzz()[4])
+    end
 
 end
