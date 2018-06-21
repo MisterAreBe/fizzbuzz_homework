@@ -11,5 +11,9 @@ class TestFizzBuzz < Minitest::Test
         assert_equal(Array, fizzbuzz().class)
     end
 
-    
+    def test_zed_data
+        assert_equal(1, fizzbuzz()[0])
+    end
+
+
 end

@@ -1,3 +1,4 @@
 def fizzbuzz()
-    []
+    zed = []
+    
 end
