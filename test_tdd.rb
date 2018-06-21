@@ -11,12 +11,16 @@ class TestFizzBuzz < Minitest::Test
         assert_equal(Array, fizzbuzz().class)
     end
 
-    def test_zed_data
+    def test_zed_index_0
         assert_equal(1, fizzbuzz()[0])
     end
 
-    def test_zed_for_data_3
+    def test_zed_index_2
         assert_equal(3, fizzbuzz()[2])
+    end
+
+    def test_zed_index_99
+        assert_equal(100, fizzbuzz()[99])
     end
 
     
