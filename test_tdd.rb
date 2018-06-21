@@ -12,7 +12,7 @@ class TestFizzBuzz < Minitest::Test
     end
 
     def test_zed_data
-        assert_equal(1, fizzbuzz()[0])
+        assert_equal(nil, fizzbuzz()[0])
     end
 
 
