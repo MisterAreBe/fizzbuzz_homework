@@ -7,10 +7,11 @@ def fizzbuzz()
         if v == 100
             break
         end
-        if zed[2] % 3 == 0
-            v = "mined"
-            zed.insert(2, v)
-            zed.delete(3)
+        if zed[v - 1] % 3 == 0
+            m = "mined"
+            i = v
+            zed.insert(i, m)
+            zed.delete(i)
         end
     end
    zed
