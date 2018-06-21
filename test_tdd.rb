@@ -15,4 +15,11 @@ class TestFizzBuzz < Minitest::Test
         assert_equal(1, fizzbuzz()[0])
     end
 
+    def test_zed_for_data_3
+        assert_equal(3, fizzbuzz()[2])
+    end
+
+    
+
+
 end
