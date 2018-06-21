@@ -15,15 +15,17 @@ class TestFizzBuzz < Minitest::Test
         assert_equal(1, fizzbuzz()[0])
     end
 
-    def test_zed_index_2
-        assert_equal(3, fizzbuzz()[2])
+    def test_zed_index_3
+        assert_equal(4, fizzbuzz()[3])
     end
 
     def test_zed_index_99
         assert_equal(100, fizzbuzz()[99])
     end
 
-    
+    def test_zed_index_2
+        assert_equal("mined", fizzbuzz()[2])
+    end
 
 
 end
