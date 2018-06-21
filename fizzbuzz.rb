@@ -7,7 +7,12 @@ def fizzbuzz()
         if v == 100
             break
         end
-        if zed[v - 1] % 3 == 0
+        if zed[v - 1] % 15 == 0
+            m = "mined minds"
+            i = v
+            zed.insert(i, m)
+            zed.delete(i)
+        elsif zed[v - 1] % 3 == 0
             m = "mined"
             i = v
             zed.insert(i, m)
