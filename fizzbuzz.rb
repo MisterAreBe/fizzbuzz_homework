@@ -12,6 +12,11 @@ def fizzbuzz()
             i = v
             zed.insert(i, m)
             zed.delete(i)
+        elsif zed[v - 1] % 5 == 0
+            m = "minds"
+            i = v
+            zed.insert(i, m)
+            zed.delete(i)
         end
     end
    zed
