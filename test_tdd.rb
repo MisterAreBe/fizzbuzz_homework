@@ -27,5 +27,8 @@ class TestFizzBuzz < Minitest::Test
         assert_equal("mined", fizzbuzz()[2])
     end
 
+    def test_zed_index_5
+        assert_equal("mined", fizzbuzz()[5])
+    end
 
 end
