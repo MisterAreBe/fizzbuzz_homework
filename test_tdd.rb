@@ -7,13 +7,12 @@ class TestFizzBuzz < Minitest::Test
         assert_equal(1, 1)
     end
 
-    def test_array_exist
+    def test_return_function_array
         assert_equal(Array, fizzbuzz().class)
     end
 
     def test_zed_data
-        assert_equal(nil, fizzbuzz()[0])
+        assert_equal(1, fizzbuzz()[0])
     end
-
 
 end
